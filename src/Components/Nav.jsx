@@ -1,11 +1,31 @@
-import React from 'react'
+import React from "react";
+import { Link } from "react-router-dom";
+import Logo from "../lightLogo.png";
 
 const Nav = () => {
   return (
     <div>
+      <h1>
+        <Link to="/">
+          <img src={Logo} alt="Logo" />
+        </Link>
+      </h1>
       
-    </div>
-  )
-}
+        <button>
+          <Link to="/">Home</Link>
+        </button>
+        <button>
+          <Link to="/facts">Facts</Link>
+        </button>
+        <button>
+          <Link to="/resources">Resources</Link>
+        </button>
+        <button>
+          <Link to="/survey">Survey</Link>
+        </button>
 
-export default Nav
+    </div>
+  );
+};
+
+export default Nav;
