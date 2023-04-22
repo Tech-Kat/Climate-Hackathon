@@ -5,8 +5,8 @@ const Home = () => {
       <div className='Home'>
       <h2> What is Light pollution and how does it effect the climate?</h2>
 
-      <p>Light pollution is the excessive or misdirected artificial light that is emitted into the environment at night. It can take the form of sky glow, glare, light trespass, and other types of unwanted and unnecessary artificial light. Light pollution can have various impacts on the climate, including:
-      </p>
+      <h2>Light pollution is the excessive or misdirected artificial light that is emitted into the environment at night. It can take the form of sky glow, glare, light trespass, and other types of unwanted and unnecessary artificial light. Light pollution can have various impacts on the climate, including:
+      </h2>
       <br/>
 <p>
 1. Increased energy consumption
