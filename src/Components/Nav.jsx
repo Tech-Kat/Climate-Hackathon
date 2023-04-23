@@ -4,7 +4,7 @@ import Logo from "../lightLogo.png";
 
 const Nav = () => {
   return (
-    <div className="Nav">
+<div className="Nav">
       <h1>
         <Link to="/">
           <img src={Logo} alt="Logo" />
