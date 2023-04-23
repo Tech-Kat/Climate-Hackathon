@@ -4,26 +4,34 @@ import Logo from "../lightLogo.png";
 
 const Nav = () => {
   return (
-    <div>
+    <div className="Nav">
       <h1>
         <Link to="/">
           <img src={Logo} alt="Logo" />
         </Link>
       </h1>
-      
-        <button>
-          <Link to="/">Home</Link>
+      <div className="nav-btns">
+        <button className="nav-btn">
+          <Link to="/" className="nav-link">
+            Home
+          </Link>
         </button>
-        <button>
-          <Link to="/facts">Facts</Link>
+        <button className="nav-btn">
+          <Link to="/survey" className="nav-link">
+            Survey
+          </Link>
         </button>
-        <button>
-          <Link to="/resources">Resources</Link>
+        <button className="nav-btn">
+          <Link to="/facts" className="nav-link">
+            Facts
+          </Link>
         </button>
-        <button>
-          <Link to="/survey">Survey</Link>
+        <button className="nav-btn">
+          <Link to="/resources" className="nav-link">
+            Resources
+          </Link>
         </button>
-
+      </div>
     </div>
   );
 };
