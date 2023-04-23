@@ -28,6 +28,7 @@ const Survey = () => {
 
   return (
     <div>
+        <h1>Are you contributing to light pollution?</h1>
       <form onSubmit={(e) => handleSubmit(e)}>
         <p>Have You Ever Heard Of Light Pollution?</p>
         <input

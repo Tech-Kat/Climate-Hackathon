@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div className="Grid">
       <div className="Column">
-        <h1> What is Light pollution and how does it effect the climate?</h1>
+        <h1 className="h1-Ques"> What is Light pollution and how does it effect the climate?</h1>
 
         <h2>
           Light pollution is the excessive or misdirected artificial light that
@@ -24,7 +24,7 @@ const Home = () => {
         <h2>4. Alteration of the Earth's natural rhythms</h2>
         <br/>
         <br/>
-        <h1 className="h2-Ques">
+        <h1>
             Lets see how your household is contributing to light pollution in your community. 
         </h1>
         <button className="home-nav-btn">
