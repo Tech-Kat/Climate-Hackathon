@@ -27,7 +27,8 @@ const Survey = () => {
   }
 
   return (
-    <div>
+    <div className="default-grid">
+      <div className="column-2 centered">
       <form onSubmit={(e) => handleSubmit(e)}>
         <p>Have You Ever Heard Of Light Pollution?</p>
         <input
@@ -231,9 +232,10 @@ const Survey = () => {
         <label for="q10n">Absolutely Yes</label>
 
         <div>
-          <button type="submit">Submit</button>
+          <button type="submit" className="m-top">Submit</button>
         </div>
       </form>
+      </div>
     </div>
   );
 };

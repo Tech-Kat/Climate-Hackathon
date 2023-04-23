@@ -67,6 +67,24 @@ color:white;
   padding: 30px 30px;
   font-size: 22px;
  }
+ .centered{
+  margin:0 auto;
+ }
+ .a-center{
+  align-content: center;
+ }
+ form p {
+  font-size: 22px;
+ }
+ .nav-btn{
+  border-radius: 10px;
+  font-size: 13px;
+  border-color: white;
+
+ }
+ .m-top{
+  margin-top: 15px;
+ }
 
 @keyframes App-logo-spin {
   from {

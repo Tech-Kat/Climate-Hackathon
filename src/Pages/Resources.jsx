@@ -2,7 +2,8 @@ import React from 'react'
 
 const Resources = () => {
   return (
-    <div>
+    <div className='default-grid a-center'>
+    <div className='column-2 centered'>
       <h1>Resources</h1>
       <h2>Light Pollution Is Completely Reversible!</h2>
       <img src='https://www.noaa.gov/sites/default/files/styles/landscape_width_1275/public/legacy/image/2019/Jun/Dollhouse%20Rock%2C%20Canyonlands%20National%20Park_lg2.jpg' alt='night sky before light pollution' width="400px" height="200px"/>
@@ -47,6 +48,7 @@ const Resources = () => {
       <p><a href='https://act.darksky.org/one-time' target="#">https://act.darksky.org/one-time</a>
   </p>
   <p><a href='https://www.astronomerswithoutborders.org/get-involved/support-us' target="#">https://www.astronomerswithoutborders.org/get-involved/support-us</a></p>
+    </div>
     </div>
   )
 }
