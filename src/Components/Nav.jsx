@@ -4,13 +4,13 @@ import Logo from "../lightLogo.png";
 
 const Nav = () => {
   return (
-    <div>
+    <div className="flex">
       <h1>
         <Link to="/">
           <img src={Logo} alt="Logo" />
         </Link>
       </h1>
-      
+        <div className="nav-align">
         <button>
           <Link to="/">Home</Link>
         </button>
@@ -22,7 +22,7 @@ const Nav = () => {
         </button>
         <button>
           <Link to="/survey">Survey</Link>
-        </button>
+        </button></div>
 
     </div>
   );
