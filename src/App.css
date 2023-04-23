@@ -1,7 +1,25 @@
+/* a, a:link, a:visited, a:focus, :hover, a:active a: -webkit-any-link{ */
+/* color:olivedrab;
+cursor: pointer;
+text-decoration: underline;
+} */
+:any-link {
+  color: #bebebe;
+  /* 8e2323 */
+  /* d3d3d3 */
+  /* a9a9a9 */
+}
 body {
-  background: rgb(2,0,36);
+background:#6b8e23;
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,11,121,0.639093137254902) 31%, rgba(0,206,255,0.9556197478991597) 100%);
 color: white;
+
+
+}
+
+body a: -webkit-any-link{
+  color: olivedrab;
+
 }
 
 .Nav{
@@ -52,7 +70,7 @@ padding-bottom: 50%;
   display: flex;
 }
 body{
-  background: rgb(2,0,36);
+background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,11,121,0.639093137254902) 31%, rgba(0,206,255,0.9556197478991597) 100%);
 color:white;
 }
@@ -75,6 +93,7 @@ color:white;
  }
  form p {
   font-size: 22px;
+  color: azure;
  }
  .nav-btn{
   border-radius: 10px;
