@@ -1,5 +1,50 @@
-.App {
-  /* text-align: center; */
+body {
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,11,121,0.639093137254902) 31%, rgba(0,206,255,0.9556197478991597) 100%);
+}
+
+.Nav{
+display: flex;
+justify-content: space-around;
+}
+
+.nav-btns{
+  align-self: center;
+  
+}
+
+.nav-btn{
+  margin-right: 70px;
+  background-color: darkseagreen;
+}
+
+.nav-link{
+  text-decoration: none;
+  font-size: larger;
+  color: black
+  
+}
+
+.home-nav-btn{
+  text-decoration: none;
+  font-size: larger;
+  margin-top: 30%;
+ 
+}
+
+.home-nav-link{
+  align-items: center;
+  text-decoration: none;
+  font-size: x-large;
+}
+.Grid{
+  display: grid;
+grid-template-columns: 25% 50% 25%;
+padding-bottom: 50%;
+}
+
+.Column{
+  grid-column: 2;
 }
 
 .flex{
